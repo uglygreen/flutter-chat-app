@@ -16,13 +16,13 @@ class BotonAzul extends StatelessWidget {
         // background
       ),
       onPressed: onPressed,
-      child: Container(
+      child: SizedBox(
           width: double.infinity,
           height: 55,
           child: Center(
               child: Text(
             text,
-            style: TextStyle(color: Colors.white, fontSize: 17),
+            style: const TextStyle(color: Colors.white, fontSize: 17),
           ))),
     );
   }
